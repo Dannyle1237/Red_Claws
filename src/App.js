@@ -1,10 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
+import NavbarComp from './components/NavbarComp';
+import Intro from './components/Intro'
 
 function App() {
   return (
     <div className="App">
-      <Navbar sticky="top"></Navbar>
+      <NavbarComp></NavbarComp>
+      <Intro></Intro>
     </div>
   );
 }
