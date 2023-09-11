@@ -30,3 +30,69 @@
 .intro p{
   margin-bottom: .1rem;
 }
+
+.food-box{
+  display: flex;
+  background-color: black;
+  width: 450px;
+  height: 200px; 
+  border-radius: 45px;
+  color: white;
+  margin:20px;
+}
+
+
+.left-food-box{
+  flex: 1;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.left-food-box img{
+  border-radius: 25px;
+  border: 2px solid #FF0000;
+}
+
+.right-food-box{
+  margin-left: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.right-food-box .header{
+  font-weight: bold;
+  font-size: 28px;
+  margin: 10px;
+  margin-bottom: 30px;
+  color: #FF0000;
+}
+
+.right-food-box button{
+  width: 100px;
+  height: 50px;
+  border: 2px solid #FF0000;
+}
+
+
+.order-section{
+  display: flex;
+  background: linear-gradient(180deg, #F00 0%, #5B5B5B 91.67%);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.left-order-section{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-order-section{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
